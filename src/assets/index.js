@@ -6,6 +6,11 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import sports from "./sports.png";
+import naruto from "./naruto.png";
+import controller from "./controller.png";
+import exercise from "./exercise.png";
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  sports,
+  naruto,
+  controller,
+  exercise
 };

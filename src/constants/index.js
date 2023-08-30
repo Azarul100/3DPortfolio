@@ -23,7 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    sports,
+    naruto,
+    controller,
+    exercise,
   } from "../assets";
+  
   
   export const navLinks = [
     {
@@ -42,20 +47,24 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Sports",
+      icon: sports,
+      description: "I'm really into playing and watching sports, with soccer being my absolute favorite. I've been a die-hard Liverpool FC fan since I was 8, and you'll often find me playing soccer or basketball out with my cousins.",
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Anime",
+      icon: naruto,
+      description: "I'm a big fan of watching anime and reading manga. I often enjoy a good romcom or action-packed shounen series. Naruto holds a special place in my heart as it's my first and favorite anime.",
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Video Games",
+      icon: controller,
+      description: "I enjoy playing video games with my friends and family. The type of games I usually play are sports games or first-person shooter games. My favorite game series are Fifa and Call of Duty.",
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Exercise",
+      icon: exercise,
+      description: "I take pleasure in staying active through gym sessions and outdoor activities when not at home. A healthy routine is vital as it benefits physical health and one's mental well-being.",
     },
   ];
   
