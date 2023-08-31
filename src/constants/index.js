@@ -27,6 +27,18 @@ import {
     naruto,
     controller,
     exercise,
+    bt,
+    dr,
+    hunter,
+    c,
+    python,
+    flutter,
+    materialui,
+    firebase,
+    vscode,
+    postman,
+    excel,
+    linux,
   } from "../assets";
   
   
@@ -82,32 +94,20 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Postman",
+      icon: postman,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Linux",
+      icon: linux,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "VSCode",
+      icon: vscode,
     },
     {
       name: "git",
@@ -118,64 +118,76 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C++",
+      icon: c,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Excel",
+      icon: excel,
+    },
+    {
+      name: "MaterialUI",
+      icon: materialui,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Brooklyn Technical High School",
+      company_name: "High School Diploma",
+      icon: bt,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Sept 2015 - June 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Location: Brooklyn, NY",
+        "Major: Computer Science",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Customer Service Associate",
+      company_name: "Duane Reade",
+      icon: dr,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2022 - Dec 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provided exceptional customer service by warmly greeting customers and addressing their inquiries and concerns",
+        "Demonstrated proficiency in performing efficient and accurate checkout procedures, consistently ensuring customer satisfaction",
+        "Actively promoted the store's credit card to customers, enhancing sales and fostering customer loyalty",
+        "Collaborated with the sales floor team to maintain well-stocked shelves, ensuring a pleasant shopping experience for customers",
+        "Assisted guests promptly and effectively, maintaining a tidy front-end area and ensuring a seamless shopping process",
+        "Processed various payment methods, including credit cards, debit cards, cash, gift cards, and store credit, with precision and reliability",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Hunter College",
+      company_name: "Bachelors of Art",
+      icon: hunter,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Aug 2019 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Location: Manhattan, NY",
+        "Major: Computer Science",
+        "Minor: Mathematics",
+        "GPA: 3.71 / 4.00"
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [

@@ -10,6 +10,19 @@ import sports from "./sports.png";
 import naruto from "./naruto.png";
 import controller from "./controller.png";
 import exercise from "./exercise.png";
+import bt from "./bt.png";
+import dr from "./dr.png";
+import hunter from "./hunter.jpeg";
+import c from "./C.png";
+import python from "./python.png";
+import flutter from "./flutter.png";
+import materialui from "./materialui.png";
+import firebase from "./firebase.png";
+import vscode from "./VScode.png";
+import postman from "./postman.png";
+import linux from "./linux.png";
+import excel from "./excel.png";
+
 
 
 import css from "./tech/css.png";
@@ -67,5 +80,17 @@ export {
   sports,
   naruto,
   controller,
-  exercise
+  exercise,
+  bt,
+  dr,
+  hunter,
+  c,
+  python,
+  flutter,
+  materialui,
+  firebase,
+  vscode,
+  postman,
+  linux,
+  excel,
 };
