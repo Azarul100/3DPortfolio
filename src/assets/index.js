@@ -22,6 +22,11 @@ import vscode from "./VScode.png";
 import postman from "./postman.png";
 import linux from "./linux.png";
 import excel from "./excel.png";
+import animemania from "./AnimeMania.png";
+import pluvio from "./pluvio.png";
+import eyechoose from "./eyechoose.png";
+
+
 
 
 
@@ -93,4 +98,7 @@ export {
   postman,
   linux,
   excel,
+  animemania,
+  pluvio,
+  eyechoose,
 };

@@ -39,6 +39,9 @@ import {
     postman,
     excel,
     linux,
+    animemania,
+    pluvio,
+    eyechoose,
   } from "../assets";
   
   
@@ -219,67 +222,99 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AnimeMania",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Website that utilizes the Kitsuanime API to showcase popular, trending, and new anime and manga titles, while also providing personalized recommendations tailored to users' preferences.",
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "postman",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "materialui",
+          color: "green-text-gradient",
+        },
+        {
+          name: "figma",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: animemania,
+      source_code_link: "https://github.com/Azarul100/AnimeMania",
+    },
+    {
+      name: "Pluvio",
+      description:
+        "Social media platform for movie enthusiasts, offering features like movie search and rating, personalized movie recommendations based on your preferences, and the ability to connect with others, follow their movie choices, and discover new films to enjoy.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "figma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "materialui",
+          color: "green-text-gradient",
+        },
+        {
+          name: "git",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pluvio,
+      source_code_link: "https://github.com/feizza615/pluvio",
+    },
+    {
+      name: "EyeChoose",
+      description:
+        "Website that utilizes user-inputted choices and employs random selection to pick one of the provided options, adding an element of unpredictability to the decision-making process.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "git",
+          color: "green-text-gradient",
+        },
+        {
+          name: "materialui",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+      ],
+      image: eyechoose,
+      source_code_link: "https://github.com/Azarul100/EyeChoose",
     },
   ];
   

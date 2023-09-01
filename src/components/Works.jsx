@@ -74,7 +74,7 @@ const Works = () => {
         variants={textVariant()}
       >
         <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -82,8 +82,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]'
         >
-          This is a temporary text that will be updated later
-        </motion.p>
+          Below is a compilation of projects that I've worked on both independently and collaboratively. Each project card features a GitHub repository link in the top right corner, granting access to the project's source code. A description resides at the bottom of each card providing a brief explanation of the project. To view all of my projects, you can find a link below that takes you to my Github profile where all of my projects can be explored. </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
@@ -95,8 +94,18 @@ const Works = () => {
           />
         ))}
       </div>
-      <br/><br/>
-      <p>Add the More projects can be found in my github link here</p>
+      <br /><br />
+      <a
+  href="https://github.com/Azarul100"
+  className='font-bold transition-all duration-300 hover:text-secondary hover:underline'
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  More projects can be found on github.com/Azarul100
+</a>
+
+
+
     </>
   )
 }
