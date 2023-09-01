@@ -8,6 +8,37 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 
+const AnchorTiltCard = () => {
+
+  return (
+    <motion.div
+      variants={fadeIn("", "spring", 1.5, 0.75)}
+      className='flex justify-center items-center'
+    >
+      <Tilt
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+      >
+        <a
+          href="https://github.com/Azarul100"
+          className='font-bold text-[17px] transition-all duration-500 hover:text-secondary hover:bold hover:text-[19px]'
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className='text-center'>
+            More projects can be found on github.com/Azarul100
+          </div>
+        </a>
+      </Tilt>
+    </motion.div>
+  );
+};
+
+
 const ProjectCard = ({
   index,
   name,
@@ -95,17 +126,7 @@ const Works = () => {
         ))}
       </div>
       <br /><br />
-      <a
-  href="https://github.com/Azarul100"
-  className='font-bold transition-all duration-300 hover:text-secondary hover:underline'
-  target="_blank"
-  rel="noopener noreferrer"
->
-  More projects can be found on github.com/Azarul100
-</a>
-
-
-
+      <AnchorTiltCard />
     </>
   )
 }

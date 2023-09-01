@@ -112,7 +112,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl transition-all duration-500 ease-in-out hover:font-size-18 hover:height-38 hover:shadow-lg hover:border hover:border-secondary hover:rounded-3xl'
+            className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl transition-all duration-500 ease-in-out hover:text-[18px] hover:height-38 hover:shadow-lg hover:border hover:border-secondary hover:rounded-3xl'
           >
             {loading ? 'Sending...' : "Send"}
           </button>
