@@ -42,6 +42,8 @@ import {
     animemania,
     pluvio,
     eyechoose,
+    nike,
+    rememble
   } from "../assets";
   
   
@@ -178,6 +180,21 @@ import {
         "GPA: 3.71 / 4.00"
       ],
     },
+    {
+      title: "Retail Store Associate",
+      company_name: "Nike",
+      icon: nike,
+      iconBg: "#E6DEDD",
+      date: "Sept 2023 - Present",
+      points: [
+        "Expertly assisted customers in both shoe and apparel sections, ensuring a tailored and positive shopping experience",
+        "Efficiently operated as a cashier, processing transactions and delivering exceptional customer service",
+        "Managed stock room activities, including unloading shipments and organizing inventory to maintain optimal stock levels",
+        "Collaborated with team members to maintain a clean and organized store, contributing to an inviting shopping environment",
+        "Demonstrated strong communication skills in addressing customer inquiries and resolving issues promptly and effectively",
+        "Actively engaged in product knowledge sessions to stay updated on Nike's offerings, enabling informed customer assistance",
+      ],
+    },
     // {
     //   title: "Full stack Developer",
     //   company_name: "Meta",
@@ -288,9 +305,9 @@ import {
       source_code_link: "https://github.com/feizza615/pluvio",
     },
     {
-      name: "EyeChoose",
+      name: "Rememble",
       description:
-        "Website that utilizes user-inputted choices and employs random selection to pick one of the provided options, adding an element of unpredictability to the decision-making process.",
+        "Website that follows the classic Wordle game with a unique twist. Make guesses to find the secret five-letter word within six attempts. However, after each guess, the corresponding row disappears, forcing players to rely on memory for subsequent attempts.",
       tags: [
         {
           name: "react",
@@ -313,8 +330,8 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: eyechoose,
-      source_code_link: "https://github.com/Azarul100/EyeChoose",
+      image: rememble,
+      source_code_link: "https://github.com/Azarul100/Rememble",
     },
   ];
   

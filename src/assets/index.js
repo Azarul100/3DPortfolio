@@ -25,6 +25,8 @@ import excel from "./excel.png";
 import animemania from "./AnimeMania.png";
 import pluvio from "./pluvio.png";
 import eyechoose from "./eyechoose.png";
+import nike from "./nike.png";
+import rememble from "./rememble.png"
 
 
 
@@ -101,4 +103,6 @@ export {
   animemania,
   pluvio,
   eyechoose,
+  nike,
+  rememble
 };
