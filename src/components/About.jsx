@@ -52,7 +52,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px max-w-3x1 leading-[30px]'
       >
-      I am a recent computer science graduate driven by a passion for technology that was ignited during my high school years. With a bachelor's degree in computer science under my belt, I am eager to further deepen my understanding of the field as I continue to explore its dynamic landscape. My enthusiasm extends to multiple domains, including software development, data analysis, and cyber security, reflecting my diverse interests within the realm of computer science. Crafting websites and applications brings me immense joy, and I aspire to contribute to the creation of significant digital platforms. My ultimate goal is to collaborate on the development of substantial websites or applications, leveraging the knowledge and skills I've gained throughout my academic journey to create impactful digital experiences. Below you can find some of my interests outside of Computer Science. 
+      I am a recent computer science graduate driven by a passion for technology that was ignited during my high 
+      school years. With a bachelor's degree in computer science under my belt, I am eager to further deepen my 
+      understanding of the field as I continue to explore its dynamic landscape. While my experience lies in web 
+      development, my enthusiasm extends to multiple domains, including roles in QA, data analysis, business analysis, 
+      or any other fields involving working with data and technology, reflecting my diverse interests within the 
+      realm of computer science. Crafting websites and applications brings me immense joy, and I aspire to contribute 
+      to the creation of significant digital platforms. My ultimate goal is to collaborate on the development of 
+      substantial websites or applications, leveraging the knowledge and skills I've gained throughout my academic 
+      journey to create impactful digital experiences. Below you can find some of my interests outside of Computer 
+      Science. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
